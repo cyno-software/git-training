@@ -1,7 +1,7 @@
 # Học sử dụng Git
 ## Git cơ bản
 
-- [Git cơ bản](git-coban.md)
+- [Git cơ bản]([git-coban.md](https://github.com/cyno-software/git-training/blob/master/git-coban.md))
 - [Câu hỏi thường gặp](git-coban-faq.md)
 
 
