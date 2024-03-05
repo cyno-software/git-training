@@ -22,7 +22,7 @@ Lộ trình học Git cơ bản (trên GitHub)
 
 ## 5. Cấu hình config name + email mặc định
 ```
-git config --global user.name "Nguyen Ban A"
+git config --global user.name "Nguyen Van A"
 git config --global user.email "nguyenvana@gmail.com"
 ```
 ## 6. Lấy code dự án về (Clone)
@@ -54,22 +54,22 @@ git checkout -b feature/slider
 Nhánh môi trường live: production
 Nhánh môi trường staging: master
 Nhánh môi trường phát triển: develop
-Các nhánh tính năng mới: feature/<name>
-Các nhánh bugfix: bugfix/<name>
-Các nhánh hotfix: hotfix/<name>
+Các nhánh tính năng mới: feature/<issues-id>-<name>
+Các nhánh bugfix: bugfix/<issues-id>-<name>
+Các nhánh hotfix: hotfix/<issues-id>-<name>
 ```
 
 ## 8. Tạo commit (Commit)
 
 ```
 git add <file_name_1> <file_name_2> <folder>
-git commit -m "Add new commit"
+git commit -m "<issues-id> - Add new commit"
 ```
 
 - Quy tắc đặt tên commit
 
 ```
-Commit_ID + Verb (thì hiện tại) + object + where
+Issues_ID + Verb (thì hiện tại) + object + where
 ```
 
 Các động từ phổ biến:
