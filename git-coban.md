@@ -107,7 +107,7 @@ git push origin HEAD:develop
 
 - Phân biệt nhánh (branch) trên máy (local) và nhánh online (remote origin)
 - Mẹo: luôn có thể từ nhánh ảo trên máy đẩy lên nhánh khác tên trên online remote
-
+- Note: dev không push trực tiếp lên master hoặc develop. Chỉ push lên nhánh feature hoặc bugfix
 ## 10. Tạo pull request trong GitHub
 
 - Căn cứ theo Git Flow ở mục (7), khi đẩy lên nhánh feature/xxx, bugfix/xxx, hotfix/xxx, ta cần tạo pull request tương ứng vào nhánh chính (develop/master)
